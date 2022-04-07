@@ -1,0 +1,3338 @@
+html, body{
+  overflow-x: hidden;
+}
+
+/*header.php*/
+.tel-top{
+  color: #0e0872;
+}
+
+.tel-top i{
+  padding-right: 3px;
+}
+
+.email-top{
+  color: #0e0872;
+}
+
+/**************/
+
+/* area das imgs com zoom*/
+.zoom img {
+  -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.zoom:hover img {
+ -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/*blog cuidado ao mexer aqui, se não o pc explode*/
+
+/* configuração do blog primario, aqui se mexe no desgner todo*/
+
+.titulo-principal{
+  color: #1f3f6d;
+  font-weight: bold;
+  font-size: 55px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.titulo-secundario{
+  color: #1f3f6d;
+  font-size: 35px;
+  text-align: center;
+}
+
+p.texto_blog{
+  color: black;
+}
+.blog-box{
+  margin-right: 12px;
+}
+div .area_blogs{
+  border: 1px solid #1F3F6D;
+  text-align: center;
+  margin-left: 2em;
+  margin-bottom: 2em;
+  text-align: left;
+  text-orientation: 10px;
+  box-shadow: 1px 4px 0px .4px #1F3F6D;
+}
+
+div .area_blogs li{
+  list-style-type: none;
+}
+
+.text-img{
+  font-size: 27px;
+  color: #1F3F6D;
+  margin-top: 6px;
+  font-weight: bolder;
+}
+
+.tituloBlog{
+  color: #1f3f6d;
+  width: 100%;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  margin-top: 20px;
+  margin-bottom: 1em;
+  text-align: center;
+ }
+ .textoBlog p{
+  padding: 14px;
+ }
+ .textoBlog h3{
+  text-align: center;
+  font-family: OCR A Std; 
+  font-size:35px;
+  text-decoration: underline; 
+  font-style:italic;
+ }
+ .titulos_blog{
+  color: #1f3f6d;
+  width: 70%;
+  text-align: center;
+  font-size: 20px;
+  text-decoration: none;
+  border-bottom: 1px solid #1F3F6D;
+  font-weight: bold;
+ }
+.img_blog_1{
+  width: 200px;
+  height: 160px;
+  border-right: 1px solid #1F3F6D;
+  padding-right: 2em;
+}
+.text_area{
+  color: #000;
+  font-size: 15px;
+  line-height: 23px;
+  font-family: Open Sans, Arial, Tahoma, sans-serif;
+  font-weight: normal;
+  display: block;
+}
+
+/* configuração do calendario da postagem*/
+.img-calendario{
+  position:relative;
+  width: 17px;
+  left: 69%;
+  top: -11px;
+}
+.calendario{
+  position:relative;
+  width: 20px;
+  left: 90%;
+  top: -15px;
+}
+/*configuração do botão*/
+
+.leia_mais{
+  color: #fff;
+  background-color: #1F3F6D;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: sans-serif;
+  letter-spacing: -.3px;
+  padding: 5px 6px;
+  margin-left: 2%;
+  bottom: 2px;
+  position: absolute;
+}
+
+/*configuração das postagem*/
+
+.fonte{
+  width: 100%;
+  text-align: right;
+  font-size: 15px;
+}
+.tituloBlog{
+text-align: center;
+}
+.sub_titulo{
+text-align: center;
+font-size: 27px;
+}
+
+/*PROPAG.PHP*/
+.itens{
+  background-color: #0e0872;
+}
+/*************/
+
+/*Media queries*/
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (min-width: 250px) and (max-width: 575.98px) {
+/*HEADER.PHP*/
+.head{
+  border-bottom: 1px solid #FDF7F7;
+  border-top: 1px solid #D9D9D9;
+}
+
+.fotologo{
+  width: 120px;
+  height: 111px;
+  margin-left: 10px;
+}
+
+.item-drop{
+  padding-right: 10px;
+}
+
+h2.popup-titulo {
+    font-size: 30px!important;
+    color: #1F3F6D;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.institucional-txt, .produtos-txt, .blog-txt, .contato-txt{
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 10px;
+  color: #1f3f6d !important;
+}
+
+.botao-proposta{
+  font-size: 15px;
+  border: 2px solid #0e0872;
+  border-radius: 20px;
+  font-weight: bold;
+  background-color: #0e0872;
+  color: white !important;
+  text-align: center;
+}
+
+.social-icons{
+  margin-top: 8px;
+  margin-left: 10px;
+}
+
+.logo-facebook{
+  width: 30px;
+  height: 30px;
+}
+.logo-yt{
+  width: 30px;
+  height: 30px;
+}
+
+.logo-insta{
+  width: 30px;
+  height: 30px;
+}
+
+.logo-lnk{
+  width: 30px;
+  height: 30px;
+}
+
+.sticky-top.ativo{
+  width: 100%;
+  margin: 0px;
+  position: fixed;
+  background: rgba(255, 255, 255, 0.98);
+}
+
+/*******************/
+
+/*IMGS.PHP style*/
+.text-img{
+  font-size: 8px;
+}
+
+/*******************/
+
+/*PROPAG.PHP*/
+.txt-progag{
+  font-size: 12px;
+}
+
+.foto-febraban{
+  width: 100px;
+  height: 55px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.itens{
+  padding-top: 1px;
+  padding-bottom: 5px;
+}
+
+.itens-1{
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+  margin-bottom: 5px;
+}
+
+.itens-2{
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  margin-bottom: 4em;
+}
+
+.solicitacao{
+  font-size: 15px;
+}
+
+.contate_online{
+  font-size: 12px;
+}
+
+.button-custom{
+  background-color: white;
+  border-radius: 20px;
+  font-size: 15px;
+  padding: 4px;
+  color: #0e0872;
+}
+
+.img_ativ1{
+  width: 70px;
+  height: 55px;
+}
+.img_ativ2{
+  width: 95px;
+  height: 60px;
+}
+.img_ativ3{
+  width: 95px;
+  height: 60px;
+}
+/***************/
+
+/*PARCEIROS.PHP*/
+
+#parceiros{
+  background-color: #0e0872;
+}
+
+.parceiro{
+  font-size: 14px;
+}
+
+.img-banco-safra{
+  width: 200px; 
+  height: 40px;
+  margin-left: 17%;
+}
+
+.img-banco-pan{
+  width: 200px; 
+  height: 45px;
+  margin-left: 4%;
+}
+
+.img-banco-itau{
+  width: 200px; 
+  height: 45px;
+  margin-left: 4%;
+}
+
+.img-banco-bmg{
+  width: 200px; 
+  height: 35px;
+  margin-left: 4%;
+}
+
+.img-banco-bradesco{
+  width: 200px; 
+  height: 45px;
+  margin-left: 17%;
+}
+
+.img-banco-c6{
+  width: 200px; 
+  height: 30px;
+  margin-left: 4%;
+}
+
+.img-banco-cetelem{
+  width: 200px; 
+  height: 30px;
+  margin-left: 4%;
+}
+
+.img-banco-daycoval{
+  width: 240px; 
+  height: 30px;
+  margin-left: 4%;
+}
+/***************/
+
+/*CLIENTES.PHP*/
+.titulo-clientes{
+  color: #0e0872;
+  font-size: 20px;
+}
+
+.comentario-1{
+  margin-left: 5%;
+}
+
+.comentario-2{
+  margin-left: 5%;
+}
+
+.comentario-3{
+  margin-left: 5%;
+}
+
+.comentario-4{
+  margin-left: 5%;
+}
+
+.comentario-5{
+  margin-left: 5%;
+}
+
+.comentario-6{
+  margin-left: 5%;
+}
+/***************/
+
+/*BLOG.PHP*/
+.text_area{
+  margin-left: 5px;
+  margin-bottom: 2.5em;
+}
+.tituloBlog{
+  font-size: 20px;
+
+}
+.titulo_blog{
+    width: 100%;
+}
+.sub_titulo {
+    font-size: 18px;
+}
+
+.blog-img{
+  margin-left: 2px;
+  margin-top: 20px;
+}
+
+/***************/
+/*RODAPE.PHP*/
+
+#footer{
+  background-image: linear-gradient(to bottom, #0074af, #004077);
+  
+}
+
+.logo-rodape{
+  width: 132px;
+  height: 89px;
+}
+
+.footer-2{
+  margin-top: 20px;
+}
+
+.servico{
+  font-size: 22px;
+  text-align: center;
+  margin-left: -25px;
+}
+
+.copy{
+  background-color: black;
+  font-size: 13px;
+}
+
+.tel-footer{
+  font-size: 14px;
+}
+
+.num-tel-footer{
+  font-size: 24px;
+}
+
+.wpp-footer{
+  font-size: 14px;
+  margin-left: -26px;
+}
+
+.num-wpp-footer{
+  font-size: 24px;
+  margin-left: -26px;
+}
+
+.email-footer, .ouvidoria-footer{
+  font-size: 14px;
+}
+
+.eml-footer{
+  font-size: 17px;
+}
+
+.ouvid-footer{
+  font-size: 17px;
+}
+
+.icon-facebook{
+	width: 10%;
+}
+
+.icon-insta{
+  width: 20%;
+}
+
+.icon-linkedin{
+  width: 20%;
+}
+
+.icon-yt{
+  width: 23%;
+  padding-top: 10px;
+}
+/***************/
+
+/*QUEM SOMOS.PHP*/
+.img-quem-somos{ /*so md acima*/
+  width: 100%;
+}
+
+.titulo-quem-somos{
+  font-size: 35px;
+  color:  #1F3F6D;
+  margin-bottom: -30px;
+}
+
+.texto-quem-somos{
+  font-size: 15px;
+  text-align: justify;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.subtitulo{
+  font-size: 30px;
+  color: #1F3F6D;
+}
+
+.valores{
+  justify-content: center; 
+  align-items: center;
+}
+
+.item-mission, picture img{
+  width: 238px;
+  max-height: 210px;
+  border: 10px 10px solid #000;
+  border: 1px solid #1F3F6D;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  color: #1F3F6D;
+  box-shadow: 0 10px 30px 0px rgba(0,0,0,0.6);
+  transition: max-height ease-in-out 300ms;
+  background-image: linear-gradient(338deg, #fff 35%, #fff 50%);
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+picture img{
+  margin: 0;
+}
+
+.item-mission:hover{
+  max-height: 700px;
+  margin-bottom: 40px;
+  color: #fff;
+  background: linear-gradient(to right, #1F3F6D 10%, #000 80%);
+}
+
+.title{
+  font-size: 20px;
+  margin-top: 13px;
+  margin-left: 15px;
+}
+.description{
+  font-size: 15px;
+  color: #fff;
+  margin: 10px;
+  
+}
+
+/***************/
+
+/*MATRIZ.PHP*/
+.img-matriz{ /*somente MD acima*/
+  width: 0px;
+}
+
+.titulo-matriz{
+  font-size: 35px;
+  text-align: center; 
+  color: #1f3f6d; 
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.endereco{
+  color: #1f3f6d;
+  font-size: 25px;
+  margin-left: 3%;
+  text-align: center;
+}
+
+.linha{
+  color: #1f3f6d; 
+  background-color: #1f3f6d;
+  height: 2px;
+  width: 50%;
+  text-align: center;
+}
+
+.fone, .fone1{
+  color: #1f3f6d;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.fone-matriz, .fone1-matriz{
+  color: #1f3f6d;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.fone{
+  margin-left: 24%;
+}
+
+.fone-matriz{
+  margin-left: 15%;
+}
+
+.fone1-matriz{
+  margin-left: 5%;
+}
+
+.fone1{
+  margin-left: 22%;
+}
+/***************/
+
+/*CONTATO.PHP*/
+
+.titulo-contato{
+  text-align: center;
+  font-size: 35px;
+  color: #1f3f6d; 
+  font-weight: bold;
+}
+
+.contato-fale-conosco, .contato-trabalhe-conosco{
+  color: #000;
+  font-size: 25px;
+}
+
+/***************/
+
+/*PROPOSTA.PHP*/
+.titulo-proposta{
+  text-align: center;
+  font-size: 35px;
+  color: #1f3f6d;
+  font-weight: bold;
+}
+
+/***************/
+
+/*PROD_CARTAO_DE_CREDITO.PHP*/
+.titulo-cred{
+  font-size: 35px;
+  font-weight: bold;
+  color: #1f3f6d;
+  text-align: center;
+}
+
+.subtitulo{
+  color: #1f3f6d;
+  text-align: center;
+  font-size: 25px;
+}
+
+.texto-cartao{
+  font-size: 17px;
+  text-align: justify;
+}
+
+.sub-parceiros-cartao{
+  color: #1f3f6d;
+  text-align: center;
+  font-size: 20px;
+}
+
+.img-parceiros{
+  width: 25%!important;
+  display: block;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+/***************/
+
+/*PROD_CONSIGNADO.PHP*/
+.titulo-consignado{
+  font-size: 35px;
+  font-weight: bold;
+  color: #1f3f6d;
+  text-align: center;
+}
+
+.subtitulo-consignado{
+  color: #1f3f6d;
+  text-align: center;
+  font-size: 25px;
+}
+
+.texto-consignado{
+  font-size: 17px;
+  text-align: justify;
+}
+
+.titulo-parceiros-consignado{
+  color: #1f3f6d;
+  text-align: center;
+  font-size: 20px;
+}
+
+.img-parceiros-1{
+  width: 25%!important;
+  margin-bottom: 10px;
+
+}
+/***************/
+
+/*PROD_SEGURO.PHP*/
+
+.titulo-seguro{
+  font-size: 35px;
+  font-weight: bold;
+  color: #1f3f6d;
+  text-align: center;
+}
+
+.texto-seguro{
+  font-size: 17px;
+  text-align: justify;
+}
+
+.parceiros-seguro{
+  color: #1f3f6d;
+  text-align: center;
+  font-size: 20px;
+}
+/***************/
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*HEADER.PHP*/
+.head{
+  border-bottom: 1px solid #FDF7F7;
+  border-top: 1px solid #D9D9D9;
+}
+
+.fotologo{
+  width: 160px;
+  height: 90px;
+  margin-left: 10px;
+}
+
+.item-drop{
+  padding-right: 10px;
+}
+
+.institucional-txt, .produtos-txt, .blog-txt, .contato-txt{
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 10px;
+  color: #1f3f6d !important;
+}
+
+.botao-proposta{
+  font-size: 15px;
+  border: 2px solid #0e0872;
+  border-radius: 20px;
+  font-weight: bold;
+  background-color: #0e0872;
+  color: white !important;
+  text-align: center;
+}
+
+.social-icons{
+  margin-top: 8px;
+  margin-left: 10px;
+}
+
+.logo-facebook{
+  width: 30px;
+  height: 30px;
+}
+.logo-yt{
+  width: 30px;
+  height: 30px;
+}
+
+.logo-insta{
+  width: 30px;
+  height: 30px;
+}
+
+.logo-lnk{
+  width: 30px;
+  height: 30px;
+}
+
+.sticky-top.ativo{
+  width: 100%;
+  margin: 0px;
+  position: fixed;
+  background: rgba(255, 255, 255, 0.98);
+}
+
+/*******************/
+
+/*IMGS.PHP style*/
+.text-img{
+  font-size: 20px;
+}
+/***************/
+
+/*PROPAG.PHP*/
+.txt-progag{
+  font-size: 20px;
+  padding-top: 5px;
+}
+
+.foto-febraban{
+  width: 184px;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.itens{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.itens-1{
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+  margin-bottom: 5px;
+}
+
+.itens-2{
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  margin-bottom: 4em;
+}
+
+.solicitacao{
+  font-size: 20px;
+}
+
+.contate_online{
+  font-size: 15px;
+}
+
+.button-custom{
+  background-color: white;
+  border-radius: 20px;
+  font-size: 20px;
+  padding: 4px;
+  color: #0e0872;
+}
+
+.img_ativ1{
+  width: 130px;
+  height: 92px;
+}
+.img_ativ2{
+  width: 165px;
+  height: 92px;
+}
+.img_ativ3{
+  width: 165px;
+  height: 92px;
+}
+/***************/
+
+/*PARCEIROS.PHP*/
+
+#parceiros{
+  background-color: #0e0872;
+}
+
+.parceiro{
+  font-size: 25px;
+}
+
+.img-banco-safra{
+  width: 200px; 
+  height: 80px;
+  margin-left: 17%;
+}
+
+.img-banco-pan{
+  width: 200px; 
+  height: 90px;
+  margin-left: 4%;
+}
+
+.img-banco-itau{
+  width: 200px; 
+  height: 90px;
+  margin-left: 4%;
+}
+
+.img-banco-bmg{
+  width: 200px; 
+  height: 70px;
+  margin-left: 4%;
+}
+
+.img-banco-bradesco{
+  width: 200px; 
+  height: 90px;
+  margin-left: 17%;
+}
+
+.img-banco-c6{
+  width: 200px; 
+  height: 60px;
+  margin-left: 4%;
+}
+
+.img-banco-cetelem{
+  width: 200px; 
+  height: 60px;
+  margin-left: 4%;
+}
+
+.img-banco-daycoval{
+  width: 240px; 
+  height: 60px;
+  margin-left: 4%;
+}
+/***************/
+
+/*CLIENTES.PHP*/
+.titulo-clientes{
+  color: #0e0872;
+  font-size: 30px;
+}
+
+.comentario-1{
+  margin-left: 12%;
+}
+
+.comentario-3{
+  margin-left: 32%;
+}
+
+.comentario-4{
+  margin-left: 12%;
+}
+
+.comentario-6{
+  margin-left: 32%;
+}
+/***************/
+
+/*BLOG.PHP*/
+.text_area{
+  margin-left: 5px;
+  font-size: 14px;
+  margin-bottom: 2.5em;
+}
+.img-calendario {
+    left: 80%;
+    top: -11px;
+}
+.calendario {
+    left: 73%;
+    top: -5px;
+}
+
+.titulos_blog {
+    width: 100%;
+    text-align: center;
+}
+
+.sub_titulo {
+    font-size: 20px;
+}
+.blog-img{
+  margin-left: 2px;
+  margin-top: 20px;
+}
+
+/***************/
+
+/*RODAPE.PHP*/
+
+#footer{
+  background-image: linear-gradient(to bottom, #0074af, #004077);
+  
+}
+
+.logo-rodape{
+  width: 132px;
+  height: 89px;
+}
+
+.footer-2{
+  margin-top: 0px;
+}
+
+.servico{
+  font-size: 22px;
+  text-align: left;
+  padding-top: 20px;
+}
+
+.copy{
+  background-color: black;
+  font-size: 13px;
+}
+
+.tel-footer{
+  font-size: 14px;
+}
+
+.num-tel-footer{
+  font-size: 24px;
+}
+
+.wpp-footer{
+  font-size: 14px;
+}
+
+.num-wpp-footer{
+  font-size: 24px;
+}
+
+.email-footer, .ouvidoria-footer{
+  font-size: 15px;
+}
+
+.eml-footer{
+  font-size: 20px;
+}
+
+.ouvid-footer{
+  font-size: 23px;
+}
+
+.icon-facebook{
+	width: 10%;
+}
+
+.icon-insta{
+  width: 18%;
+}
+
+.icon-linkedin{
+  width: 18%;
+}
+
+.icon-yt{
+  width: 22%;
+  padding-top: 20px;
+}
+/***************/
+
+/*QUEM SOMOS.PHP*/
+.img-quem-somos{ /*so md acima*/
+  width: 100%;
+}
+
+.titulo-quem-somos{
+  font-size: 45px;
+  color:  #1F3F6D;
+  margin-bottom: -30px;
+}
+
+.texto-quem-somos{
+  font-size: 18px;
+  text-align: justify;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.subtitulo{
+  font-size: 35px;
+  color: #1F3F6D;
+}
+
+.valores{
+  justify-content: center; 
+  align-items: center;
+}
+
+.item-mission, picture img{
+  width: 238px;
+  max-height: 210px;
+  border: 10px 10px solid #000;
+  border: 1px solid #1F3F6D;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  color: #1F3F6D;
+  box-shadow: 0 10px 30px 0px rgba(0,0,0,0.6);
+  transition: max-height ease-in-out 300ms;
+  background-image: linear-gradient(338deg, #fff 35%, #fff 50%);
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+picture img{
+  margin: 0;
+}
+
+.item-mission:hover{
+  max-height: 700px;
+  margin-bottom: 40px;
+  color: #fff;
+  background: linear-gradient(to right, #1F3F6D 10%, #000 80%);
+}
+
+.title{
+  font-size: 20px;
+  margin-top: 13px;
+  margin-left: 15px;
+}
+.description{
+  font-size: 15px;
+  color: #fff;
+  margin: 10px;
+}
+
+/***************/
+
+/*MATRIZ.PHP*/
+.img-matriz{ /*somente MD acima*/
+  width: 0px;
+}
+
+.titulo-matriz{
+  font-size: 40px;
+  text-align: center; 
+  color: #1f3f6d; 
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.endereco{
+  color: #1f3f6d;
+  font-size: 30px;
+  margin-left: 10%;
+}
+
+.linha{
+  color: #1f3f6d; 
+  background-color: #1f3f6d;
+  height: 2px;
+  width: 50%;
+  margin-left: 10%;
+}
+
+.fone, .fone1{
+  color: #1f3f6d;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.fone-matriz, .fone1-matriz{
+  color: #1f3f6d;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.fone{
+  margin-left: 30%;
+}
+
+.fone-matriz{
+  margin-left: 20%;
+}
+
+.fone1-matriz{
+  margin-left: 7%;
+}
+
+.fone1{
+  margin-left: 14%;
+}
+/***************/
+
+/*CONTATO.PHP*/
+.titulo-contato{
+  text-align: center;
+  font-size: 45px;
+  color: #1f3f6d; 
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.contato-fale-conosco, .contato-trabalhe-conosco{
+  color: #000;
+  font-size: 35px;
+  margin-left: -5px;
+}
+
+/***************/
+
+/*PROPOSTA.PHP*/
+
+.titulo-proposta{
+  text-align: center;
+  font-size: 35px;
+  color: #1f3f6d;
+  font-weight: bold;
+}
+
+/***************/
+
+/*PROD_CARTAO_DE_CREDITO.PHP*/
+
+.titulo-cred{
+  font-size: 35px;
+  font-weight: bold;
+  color: #1f3f6d;
+  text-align: center;
+}
+
+.subtitulo{
+  color: #1f3f6d;
+  text-align: center;
+  font-size: 25px;
+}
+
+.texto-cartao{
+  font-size: 17px;
+  text-align: justify;
+}
+
+.sub-parceiros-cartao{
+  color: #1f3f6d;
+  text-align: center;
+  font-size: 25px;
+}
+
+.img-parceiros{
+  width: 15%!important;
+  display: block;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+/***************/
+
+/*PROD_CONSIGNADO.PHP*/
+
+.titulo-consignado{
+  font-size: 35px;
+  font-weight: bold;
+  color: #1f3f6d;
+  text-align: center;
+}
+
+.subtitulo-consignado{
+  color: #1f3f6d;
+  text-align: center;
+  font-size: 25px;
+}
+
+.texto-consignado{
+  font-size: 17px;
+  text-align: justify;
+}
+
+.titulo-parceiros-consignado{
+  color: #1f3f6d;
+  text-align: center;
+  font-size: 25px;
+}
+
+.img-parceiros-1{
+  width: 15%!important;
+  margin-bottom: 10px;
+}
+/***************/
+
+/*PROD_SEGURO.PHP*/
+
+.titulo-seguro{
+  font-size: 35px;
+  font-weight: bold;
+  color: #1f3f6d;
+  text-align: center;
+}
+
+.texto-seguro{
+  font-size: 17px;
+  text-align: justify;
+}
+
+.parceiros-seguro{
+  color: #1f3f6d;
+  text-align: center;
+  font-size: 25px;
+}
+/***************/
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*HEADER.PHP*/
+.head{
+  border-bottom: 1px solid #FDF7F7;
+  border-top: 1px solid #FDF7F7;
+}
+
+.fotologo{
+  width: 157px;
+  height: 130px;
+  margin-left: 0px;
+}
+
+.item-drop{
+  padding-right: 10px;
+}
+
+.institucional-txt, .produtos-txt, .blog-txt, .contato-txt{
+  font-size: 13px;
+  margin-top: 50px;
+  font-weight: bold;
+  color: #0e0872 !important;
+}
+
+.botao-proposta{
+  font-size: 10px;
+  margin-top: 50px;
+  border: 2px solid #0e0872;
+  border-radius: 20px;
+  font-weight: bold;
+  background-color: #0e0872;
+  color: white !important;
+  text-align: center;
+}
+
+.social-icons{
+  position: absolute;
+  top: -1000px;
+  margin-top: 57px;
+  margin-left: 20px;
+}
+
+.logo-facebook{
+  width: 19px;
+  height: 19px;
+}
+.logo-yt{
+  width: 20px;
+  height: 20px;
+}
+
+.logo-insta{
+  width: 27px;
+  height: 23px;
+}
+
+.logo-lnk{
+  width: 20px;
+  height: 20px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+.sticky-top.ativo{
+  width: 100%;
+  margin: 0px;
+  position: fixed;
+  background: rgba(255, 255, 255, 0.98);
+}
+/*******************/
+/*PROPAG.PHP*/
+.txt-progag{
+  font-size: 13px;
+  padding-top: 5px;
+}
+
+.foto-febraban{
+  width: 110px;
+  height: 59px;
+  margin-top: 20px;
+}
+
+.itens{
+  padding: 5px;
+}
+
+.itens-1{
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-bottom: 5em;
+}
+
+.itens-2{
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  margin-bottom: 5em;
+}
+
+.solicitacao{
+  font-size: 15px;
+}
+
+.contate_online{
+  font-size: 15px;
+}
+
+.button-custom{
+  background-color: white;
+  border-radius: 20px;
+  font-size: 15px;
+  padding: 5px 8px;
+  color: #0e0872;
+}
+
+.img_ativ1{
+  width: 130px;
+  height: 92px;
+}
+.img_ativ2{
+  width: 175px;
+  height: 92px;
+}
+.img_ativ3{
+  width: 175px;
+  height: 92px;
+}
+/***************/
+
+/*PARCEIROS.PHP*/
+
+#parceiros{
+  background-color: #0e0872;
+}
+
+.parceiro{
+  font-size: 30px;
+}
+
+.img-banco-safra{
+  width: 200px; 
+  height: 100px;
+  margin-left: 17%;
+}
+
+.img-banco-pan{
+  width: 200px; 
+  height: 120px;
+  margin-left: 4%;
+}
+
+.img-banco-itau{
+  width: 200px; 
+  height: 120px;
+  margin-left: 4%;
+  top: 8px;
+}
+
+.img-banco-bmg{
+  width: 200px; 
+  height: 90px;
+  margin-left: 4%;
+}
+
+.img-banco-bradesco{
+  width: 200px; 
+  height: 120px;
+  margin-left: 17%;
+}
+
+.img-banco-c6{
+  width: 200px; 
+  height: 80px;
+  margin-left: 4%;
+}
+
+.img-banco-cetelem{
+  width: 200px; 
+  height: 90px;
+  margin-left: 4%;
+}
+
+.img-banco-daycoval{
+  width: 240px; 
+  height: 90px;
+  margin-left: 4%;
+}
+/***************/
+
+/*CLIENTES.PHP*/
+.titulo-clientes{
+  color: #0e0872;
+  font-size: 40px;
+}
+
+.comentario-1{
+  margin-left: 12%;
+}
+
+.comentario-3{
+  margin-left: 32%;
+}
+
+.comentario-4{
+  margin-left: 12%;
+}
+
+
+.comentario-6{
+  margin-left: 32%;
+}
+/***************/
+
+/*BLOG*/
+
+.titulos_blog {
+  width: 100%;
+  text-align: center;
+}
+
+.div .area_blogs{
+  margin-left: 11em;
+}
+
+.text_area{
+  margin-left: 5px;
+  margin-bottom: 2.5em;
+}
+.img-calendario {
+    position: relative;
+    width: 17px;
+    left: 80%;
+    top: -11px;
+}
+.calendario {
+    left: 73%;
+    top: -5px;
+}
+
+.titulos_blog {
+    width: 100%;
+    text-align: center;
+}
+
+.blog-img{
+  margin-left: 2px;
+  margin-top: 20px;
+}
+
+/***************/
+
+/*RODAPE.PHP*/
+
+#footer{
+  background-image: linear-gradient(to bottom, #0074af, #004077);
+  
+}
+
+.logo-rodape{
+  width: 165px;
+  height: 126px;
+}
+
+.footer-2{
+  margin-top: 0px;
+}
+
+.servico{
+  font-size: 22px;
+  text-align: left;
+  padding-top: 20px;
+}
+
+.copy{
+  background-color: black;
+  font-size: 13px;
+}
+
+.tel-footer{
+  font-size: 14px;
+}
+
+.num-tel-footer{
+  font-size: 24px;
+}
+
+.wpp-footer{
+  font-size: 14px;
+}
+
+.num-wpp-footer{
+  font-size: 24px;
+}
+
+.email-footer, .ouvidoria-footer{
+  font-size: 15px;
+}
+
+.eml-footer{
+  font-size: 20px;
+}
+
+.ouvid-footer{
+  font-size: 23px;
+}
+
+.icon-facebook{
+	width: 5%;
+}
+
+.icon-insta{
+  width: 9%;
+}
+
+.icon-linkedin{
+  width: 9%;
+}
+
+.icon-yt{
+  width: 11%;
+  padding-top: 20px;
+}
+/***************/
+
+/*QUEM SOMOS.PHP*/
+.img-quem-somos{ /*so md acima*/
+  width: 350px;
+}
+
+.titulo-quem-somos{
+  font-size: 45px;
+  color:  #1F3F6D;
+  margin-top: -150px;
+  margin-bottom: 30px;
+}
+
+.texto-quem-somos{
+  font-size: 18px;
+  text-align: justify;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.subtitulo{
+  font-size: 35px;
+  color: #1F3F6D;
+}
+
+.valores{
+  justify-content: center; 
+  align-items: center;
+}
+
+.item-mission, picture img{
+  width: 238px;
+  max-height: 210px;
+  border: 10px 10px solid #000;
+  border: 1px solid #1F3F6D;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  color: #1F3F6D;
+  box-shadow: 0 10px 30px 0px rgba(0,0,0,0.6);
+  transition: max-height ease-in-out 300ms;
+  background-image: linear-gradient(338deg, #fff 35%, #fff 50%);
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+picture img{
+  margin: 0;
+}
+
+.item-mission:hover{
+  max-height: 700px;
+  margin-bottom: 40px;
+  color: #fff;
+  background: linear-gradient(to right, #1F3F6D 10%, #000 80%);
+}
+
+.title{
+  font-size: 20px;
+  margin-top: 13px;
+  margin-left: 15px;
+}
+.description{
+  font-size: 15px;
+  color: #fff;
+  margin: 10px;
+}
+
+/***************/
+
+/*MATRIZ.PHP*/
+.img-matriz{ /*somente MD acima*/
+  width: 300px;
+}
+
+.titulo-matriz{
+  font-size: 35px;
+  text-align: center; 
+  color: #1f3f6d; 
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+.endereco{
+  color: #1f3f6d;
+  font-size: 25px;
+  text-align: center;
+}
+
+.linha{
+  color: #1f3f6d; 
+  background-color: #1f3f6d;
+  height: 2px;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.fone, .fone1{
+  color: #1f3f6d;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.fone-matriz, .fone1-matriz{
+  color: #1f3f6d;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.fone{
+  margin-left: 20%;
+}
+
+.fone-matriz{
+  margin-left: 10%;
+}
+
+.fone1-matriz{
+  margin-left: 7%;
+}
+
+.fone1{
+  margin-left: 19%;
+}
+/***************/
+
+/*CONTATO.PHP*/
+.img-contato{ /*Somente MD acima*/
+  width: 450px;
+}
+
+.titulo-contato{
+  text-align: center;
+  font-size: 45px;
+  color: #1f3f6d; 
+  font-weight: bold;
+  margin-bottom: 100px;
+  margin-top: -150px;
+}
+
+.contato-fale-conosco, .contato-trabalhe-conosco{
+  color: #000;
+  font-size: 35px;
+  margin-left: -5px;
+}
+
+/***************/
+
+/*PROPOSTA.PHP*/
+.img-proposta{
+  width: 350px;
+}
+.titulo-proposta{
+  text-align: center;
+  font-size: 35px;
+  color: #1f3f6d;
+  font-weight: bold;
+  margin-top: -170px;
+  margin-bottom: 100px;
+}
+
+/***************/
+
+/*PROD_CARTAO_DE_CREDITO.PHP*/
+.img-cc{ /*Somente MD acima*/
+  width: 350px;
+}
+
+.titulo-cred{
+  font-size: 45px;
+  font-weight: bold;
+  color: #1f3f6d;
+  text-align: center;
+  margin-top: -130px;
+  margin-bottom: 80px;
+}
+
+.subtitulo{
+  color: #1f3f6d;
+  text-align: center;
+  font-size: 25px;
+}
+
+.texto-cartao{
+  font-size: 17px;
+  text-align: justify;
+}
+
+.sub-parceiros-cartao{
+  color: #1f3f6d;
+  text-align: center;
+  font-size: 25px;
+}
+
+.img-parceiros{
+  width: 15%!important;
+  margin-left: 3em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+/***************/
+
+/*PROD_CONSIGNADO.PHP*/
+.img-consignado{ /*Somente MD acima*/
+  width: 350px;
+}
+
+.titulo-consignado{
+  font-size: 45px;
+  font-weight: bold;
+  color: #1f3f6d;
+  text-align: center;
+  margin-top: -130px;
+  margin-bottom: 80px;
+}
+
+.subtitulo-consignado{
+  color: #1f3f6d;
+  text-align: center;
+  font-size: 25px;
+}
+
+.texto-consignado{
+  font-size: 17px;
+  text-align: justify;
+}
+
+.titulo-parceiros-consignado{
+  color: #1f3f6d;
+  text-align: center;
+  font-size: 25px;
+}
+
+.img-parceiros-1{
+  width: 15%!important;
+}
+/***************/
+
+/*PROD_SEGURO.PHP*/
+.foto-seguro{ /*Somente MD acima*/
+  width: 350px;
+}
+
+.titulo-seguro{
+  font-size: 45px;
+  font-weight: bold;
+  color: #1f3f6d;
+  text-align: center;
+  margin-top: -130px;
+  margin-bottom: 80px;
+}
+
+.texto-seguro{
+  font-size: 17px;
+  text-align: justify;
+}
+
+.parceiros-seguro{
+  color: #1f3f6d;
+  text-align: center;
+  font-size: 25px;
+}
+/***************/
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*HEADER.PHP*/
+.head{
+  border-bottom: 1px solid #FDF7F7;
+  border-top: 1px solid #FDF7F7;
+}
+
+.fotologo{
+  width: 193px;
+  height: 169px;
+}
+
+.item-drop{
+  padding-right: 10px;
+}
+
+.sticky-top.ativo{
+  width: 100%;
+  margin: 0px;
+  position: fixed;
+  background: rgba(255, 255, 255, 0.98);
+}
+
+
+.sticky-top.ativo .fotologo{
+  width: 141px;
+  height: 117px;
+  border: none; 
+
+}
+
+.sticky-top.ativo .item-drop a{
+  font-size: 13px;
+  font-weight: bold;
+  color: #1f3f6d;
+	transform: translate(0%,-40%);
+	-ms-transform: translate(0%,-40%);
+}
+.sticky-top.ativo .social-icons{
+  font-size: 13px;
+  font-weight: bold;
+  color: #1f3f6d;
+	transform: translate(0%,-50%);
+	-ms-transform: translate(0%,-50%);
+}
+
+
+.institucional-txt, .produtos-txt, .blog-txt, .contato-txt{
+  font-size: 13px;
+  margin-top: 80px;
+  font-weight: bold;
+  color: #1f3f6d !important;
+}
+
+.botao-proposta{
+  font-size: 11px;
+  margin-top: 80px;
+  border: 2px solid #0e0872;
+  border-radius: 20px;
+  font-weight: bold;
+  background-color: #0e0872;
+  color: white !important;
+  text-align: center;
+}
+
+.social-icons{
+  margin-top: 80px;
+  margin-left: 20px;
+}
+
+.logo-facebook{
+  width: 23px;
+  height: 23px;
+}
+.logo-yt{
+  width: 23px;
+  height: 23px;
+}
+
+.logo-insta{
+  width: 23px;
+  height: 23px;
+}
+
+.logo-lnk{
+  width: 23px;
+  height: 23px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+/**************************/
+
+/*PROPAG.PHP*/
+.txt-progag{
+  font-size: 13px;
+  padding-top: 5px;
+}
+
+.foto-febraban{
+  width: 120px;
+  height: 70px;
+}
+
+.itens{
+  padding: 5px;
+}
+
+.itens-1{
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-bottom: 8em;
+  margin-top: 4em;
+}
+
+.itens-2{
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  margin-bottom: 8em;
+  margin-top: 4em;
+}
+
+.solicitacao{
+  font-size: 15px;
+}
+
+.contate_online{
+  font-size: 12px;
+}
+
+.button-custom{
+  background-color: white;
+  border-radius: 20px;
+  font-size: 15px;
+  padding: 5px 8px;
+  color: #0e0872;
+}
+.img_ativ1{
+  width: 260px;
+  height: 184px;
+}
+.img_ativ2{
+  width: 350px;
+  height: 184px;
+}
+.img_ativ3{
+  width: 350px;
+  height: 184px;
+}
+/***************/
+
+/*PARCEIROS.PHP*/
+
+#parceiros{
+  background-color: #0e0872;
+}
+
+.parceiro{
+  font-size: 30px;
+  margin-bottom: 0em;
+}
+
+.img-banco-safra{
+  width: 130px; 
+  height: 111px;
+  bottom: 15px;
+  margin-left: 20%;
+}
+
+.img-banco-pan{
+  width: 123px; 
+  height: 123px;
+  margin-left: 4%;
+  bottom: 8px;
+}
+
+.img-banco-itau{
+  width: 123px; 
+  height: 123px;
+  margin-left: 4%;
+}
+
+.img-banco-bmg{
+  width: 123px; 
+  height: 123px;
+  margin-left: 4%;
+  bottom: 8px;
+}
+
+.img-banco-bradesco{
+  width: 123px; 
+  height: 107px;
+  bottom: 14px;
+  margin-left: 20%;
+}
+
+.img-banco-c6{
+  width: 130px; 
+  height: 56px;
+  margin-left: 4%;
+}
+
+.img-banco-cetelem{
+  width: 130px; 
+  height: 100px;
+  margin-left: 4%;
+}
+
+.img-banco-daycoval{
+  width: 180px; 
+  height: 123px;
+  bottom: 2px;
+  margin-left: 4%;
+}
+
+/***************/
+
+/*CLIENTES.PHP*/
+.titulo-clientes{
+  color: #0e0872;
+  font-size: 40px;
+}
+
+.comentario-1{
+  margin-left: 5%;
+}
+
+.comentario-4{
+  margin-left: 5%;
+}
+
+/***************/
+
+/*BLOG.PHP*/
+.text_area{
+  line-height: 17px;
+  font-size: 16px;
+}
+.img-calendario {
+    left: 53%;
+    top: -12px;
+}
+
+.calendario {
+    left: 83%;
+    top: -5px;
+}
+
+/***************/
+
+/*RODAPE.PHP*/
+
+#footer{
+  background-image: linear-gradient(to bottom, #0074af, #004077);
+  
+}
+
+.logo-rodape{
+  width: 132px;
+  height: 89px;
+}
+
+.footer-2{
+  margin-top: 0px;
+}
+
+.servico{
+  font-size: 22px;
+  text-align: left;
+  padding-top: 20px;
+}
+
+.copy{
+  background-color: black;
+  font-size: 13px;
+}
+
+.tel-footer{
+  font-size: 14px;
+}
+
+.num-tel-footer{
+  font-size: 24px;
+}
+
+.wpp-footer{
+  font-size: 14px;
+  margin-left: -8px;
+}
+
+.num-wpp-footer{
+  font-size: 24px;
+  margin-left: -8px;
+}
+
+.email-footer, .ouvidoria-footer{
+  font-size: 15px;
+}
+
+.eml-footer{
+  font-size: 20px;
+}
+
+.ouvid-footer{
+  font-size: 20px;
+}
+
+.icon-facebook{
+	width: 13%;
+}
+
+.icon-insta{
+  width: 20%;
+}
+
+.icon-linkedin{
+  width: 20%;
+}
+
+.icon-yt{
+  width: 22%;
+  padding-top: 8px;
+}
+
+/*FORM RODAPÉ*/
+.form-footer{
+  background-color: white;
+  margin-right: -50px;
+}
+
+.txt-form-footer{
+  font-size: 25px;
+  color: #1f3f6d; 
+  font-weight: bold;
+}
+
+.submit-btn{
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  color: white;
+  background-color: #1f3f6d;
+  border-radius: 20px;
+  border-color: #1f3f6d;
+  padding: 5px 10px;
+}
+
+.input-text{
+  display: block;
+  width: 100%;
+  height: 36px;
+  background-color: white;
+  color: #004077;
+  border-width: 0 0 2px 0;
+  border-color: #1f3f6d;
+  font-size: 15px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.contact-form .input-text:focus + .label,
+.contact-form .input-text.not-empty + .label{
+transform: translateY(-24px);
+}
+
+.input-text:focus{
+  outline: none;
+}
+
+.label{
+  bottom: 11px;
+  padding-top: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #004077;
+  cursor: text;
+  text-transform: capitalize;
+  transition: transform 0.2s ease-in-out;
+}
+
+.submit-btn{
+  margin-top: 10px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  color: white;
+  background-color: #1f3f6d;
+  border-radius: 20px;
+  border-color: #1f3f6d;
+  padding: 5px 10px;
+}
+
+/***************/
+
+/*QUEM SOMOS.PHP*/
+.img-quem-somos{ /*so md acima*/
+  width: 450px;
+}
+
+.titulo-quem-somos{
+  font-size: 50px;
+  color:  #1F3F6D;
+  margin-top: -160px;
+  margin-bottom: 40px;
+}
+
+.texto-quem-somos{
+  font-size: 18px;
+  text-align: justify;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.subtitulo{
+  font-size: 45px;
+  color: #1F3F6D;
+}
+
+.valores{
+  justify-content: center; 
+  align-items: center;
+}
+
+.item-mission, picture img{
+  width: 238px;
+  max-height: 210px;
+  border: 10px 10px solid #000;
+  border: 1px solid #1F3F6D;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  color: #1F3F6D;
+  box-shadow: 0 10px 30px 0px rgba(0,0,0,0.6);
+  transition: max-height ease-in-out 300ms;
+  background-image: linear-gradient(338deg, #fff 35%, #fff 50%);
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+picture img{
+  margin: 0;
+}
+
+.item-mission:hover{
+  max-height: 700px;
+  margin-bottom: 40px;
+  color: #fff;
+  background: linear-gradient(to right, #1F3F6D 10%, #000 80%);
+}
+
+.title{
+  font-size: 20px;
+  margin-top: 13px;
+  margin-left: 15px;
+}
+.description{
+  font-size: 15px;
+  color: #fff;
+  margin: 10px;
+}
+
+/***************/
+
+/*MATRIZ.PHP*/
+.img-matriz{ /*somente MD acima*/
+  width: 350px;
+}
+
+
+.titulo-matriz{
+  font-size: 40px;
+  text-align: center; 
+  color: #1f3f6d; 
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+.endereco{
+  color: #1f3f6d;
+  font-size: 30px;
+  text-align: center;
+}
+
+.linha{
+  color: #1f3f6d; 
+  background-color: #1f3f6d;
+  height: 2px;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.fone, .fone1{
+  color: #1f3f6d;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.fone-matriz, .fone1-matriz{
+  color: #1f3f6d;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.fone{
+  margin-left: 16%;
+}
+
+.fone-matriz{
+  margin-left: 8%;
+}
+
+.fone1-matriz{
+  margin-left: 8%;
+}
+
+.fone1{
+  margin-left: 25%;
+}
+/***************/
+
+/*CONTATO.PHP*/
+.img-contato{ /*Somente MD acima*/
+  width: 550px;
+}
+
+.titulo-contato{
+  text-align: center;
+  font-size: 55px;
+  color: #1f3f6d; 
+  font-weight: bold;
+  margin-bottom: 200px;
+  margin-top: -250px;
+}
+
+.contato-fale-conosco, .contato-trabalhe-conosco{
+  color: #000;
+  font-size: 40px;
+  margin-left: -5px;
+}
+
+/***************/
+
+/*PROPOSTA.PHP*/
+.img-proposta{
+  width: 450px;
+}
+.titulo-proposta{
+  text-align: center;
+  font-size: 45px;
+  color: #1f3f6d;
+  font-weight: bold;
+  margin-top: -170px;
+  margin-bottom: 100px;
+}
+
+/***************/
+
+/*PROD_CARTAO_DE_CREDITO.PHP*/
+.img-cc{ /*Somente MD acima*/
+  width: 500px;
+}
+
+.titulo-cred{
+  font-size: 50px;
+  font-weight: bold;
+  color: #1f3f6d;
+  text-align: center;
+  margin-top: -250px;
+  margin-bottom: 100px;
+}
+
+.subtitulo{
+  color: #1f3f6d;
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.texto-cartao{
+  font-size: 20px;
+  text-align: justify;
+}
+
+.sub-parceiros-cartao{
+  color: #1f3f6d;
+  text-align: center;
+  font-size: 30px;
+}
+
+.img-parceiros{
+  width: 10%!important;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+/***************/
+
+/*PROD_CONSIGNADO.PHP*/
+.img-consignado{ /*Somente MD acima*/
+  width: 500px;
+}
+
+.titulo-consignado{
+  font-size: 50px;
+  font-weight: bold;
+  color: #1f3f6d;
+  text-align: center;
+  margin-top: -250px;
+  margin-bottom: 100px;
+}
+
+.subtitulo-consignado{
+  color: #1f3f6d;
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.texto-consignado{
+  font-size: 20px;
+  text-align: justify;
+  text-align: center;
+}
+
+.titulo-parceiros-consignado{
+  color: #1f3f6d;
+  text-align: center;
+  font-size: 30px;
+}
+
+.img-parceiros-1{
+  width: 10%!important;
+  margin-bottom: 10px;
+}
+/***************/
+
+/*PROD_SEGURO.PHP*/
+.foto-seguro{ /*Somente MD acima*/
+  width: 500px;
+}
+
+.titulo-seguro{
+  font-size: 50px;
+  font-weight: bold;
+  color: #1f3f6d;
+  text-align: center;
+  margin-top: -250px;
+  margin-bottom: 100px;
+}
+
+.texto-seguro{
+  font-size: 20px;
+  text-align: justify;
+  text-align: center;
+}
+
+.parceiros-seguro{
+  color: #1f3f6d;
+  text-align: center;
+  font-size: 30px;
+}
+/***************/
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+/*HEADER.PHP*/
+.head{
+  border-bottom: 1px solid #FDF7F7;
+  border-top: 1px solid #FDF7F7;
+}
+
+.topbar{
+  width: 100%;
+  height: 80px;
+}
+
+.primary{
+  width: 100%;
+  height: 200px;
+  padding: 0;
+  margin: -3em;
+}
+
+.navbar-brand{
+  margin-right: -7em;
+}
+
+.fotologo{
+  width: 240px;
+  height: 260px;
+  margin-left: 5em;
+  padding-bottom: 23%;
+}
+
+.item-drop{
+  padding-right: 10px;
+  margin-top: 6px;
+}
+
+.institucional-txt, .produtos-txt, .blog-txt, .contato-txt{
+  font-size: 15px;
+  font-weight: bold;
+  color: #1f3f6d !important;
+}
+
+.institucional-txt:hover, .produtos-txt:hover, .blog-txt:hover, .contato-txt:hover{
+  border-bottom: 4px solid #1f3f6d;
+  transition: all .35s ease-in-out;
+}
+
+.sticky-top.ativo{
+  width: 100%;
+  position: fixed;
+  background: rgba(255, 255, 255, 0.98);
+}
+
+
+.sticky-top.ativo .fotologo{
+  width: 156px;
+  height: 152px;
+  margin: 2em -12em 2em 6em;
+  border: none; 
+
+}
+
+.sticky-top.ativo .item-drop a.institucional-txt{
+  margin-left: 14em;
+}
+
+.sticky-top.ativo .institucional-menu{
+  margin-left: 11em;
+  top: 7em;
+  padding-bottom: 0;
+}
+
+.sticky-top.ativo .produtos-menu{
+  top: 7em;
+  padding-bottom: 0;
+}
+
+.dropdown-item{
+  font-weight: bold;
+  background-color: #fff;
+  color: #1f3f6d;
+}
+.dropdown-item:hover{
+  font-weight: bold;
+  background-color: #1f3f6d;
+  color: #FFF;
+}
+
+.sticky-top.ativo .item-drop a.institucional-txt, .sticky-top.ativo .item-drop a.produtos-txt, .sticky-top.ativo .item-drop a.blog-txt, 
+.sticky-top.ativo .item-drop a.contato-txt, .sticky-top.ativo .item-drop a.botao-proposta{
+  margin-top: 7em;
+}
+
+.sticky-top.ativo .item-drop a{
+  font-size: 13px;
+  font-weight: bold;
+  color: #1f3f6d;
+  margin-top: 2%;
+	transform: translate(0%,-50%);
+	-ms-transform: translate(0%,-50%);
+}
+
+.sticky-top.ativo .item-drop a:hover{
+  font-weight: bold;
+  color: #fff;
+}
+
+.sticky-top.ativo .social-icons{
+  font-size: 13px;
+  font-weight: bold;
+  color: #1f3f6d;
+  margin-top: 7.4em;
+    transform: translate(0%,-60%);
+	-ms-transform: translate(0%,-60%);
+}
+
+
+.botao-proposta{
+  font-size: 13px;
+  border: 2px solid #0e0872;
+  border-radius: 20px;
+  font-weight: bold;
+  background-color: #0e0872;
+  color: white !important;
+  text-align: center;
+}
+
+.social-icons{
+  margin-left: 20px;
+  padding-top: 10px;
+}
+
+.logo-facebook{
+  width: 30px;
+  height: 30px;
+}
+.logo-yt{
+  width: 30px;
+  height: 30px;
+}
+
+.logo-insta{
+  width: 30px;
+  height: 30px;
+}
+
+.logo-lnk{
+  width: 30px;
+  height: 30px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+/*******************/
+
+/*PROPAG.PHP*/
+.txt-progag{
+  font-size: 13px;
+  padding-top: 5px;
+}
+
+.foto-febraban{
+  width: 184px;
+  height: 100px;
+}
+
+.itens{
+  padding: 5px;
+}
+
+.itens-1{
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-bottom: 8em;
+  margin-top: 4em;
+}
+
+.itens-2{
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  margin-bottom: 8em;
+  margin-top: 4em;
+}
+
+.solicitacao{
+  font-size: 15px;
+}
+
+.contate_online{
+  font-size: 15px;
+}
+
+.button-custom{
+  background-color: white;
+  border-radius: 20px;
+  font-size: 15px;
+  padding: 5px 8px;
+  color: #0e0872;
+}
+.img_ativ1{
+  width: 260px;
+  height: 184px;
+}
+.img_ativ2{
+  width: 350px;
+  height: 184px;
+}
+.img_ativ3{
+  width: 350px;
+  height: 184px;
+}
+/***************/
+
+/*PARCEIROS.PHP*/
+
+#parceiros{
+  margin-top: 8%;
+  margin-bottom: 5%;
+  background-color: #0e0872;
+}
+
+.parceiro{
+  font-size: 30px;
+  margin-bottom: 0em;
+}
+
+.img-banco-safra{
+  width: 157px; 
+  height: 70px;
+  margin-left: 20%;
+}
+
+.img-banco-pan{
+  width: 123px; 
+  height: 123px;
+  margin-left: 4%;
+  bottom: 5px;
+}
+
+.img-banco-itau{
+  width: 234px;
+  height: 65px;
+  margin-left: 2%;
+  margin-bottom: 2px;
+}
+
+.img-banco-bmg{
+    width: 150px;
+    height: 81px;
+    margin-left: 4%;
+}
+
+.img-banco-bradesco{
+  width: 123px; 
+  height: 107px;
+  bottom: 14px;
+  margin-left: 25%;
+}
+
+.img-banco-c6{
+  width: 130px; 
+  height: 56px;
+  margin-left: 4%;
+}
+
+.img-banco-cetelem{
+  width: 130px; 
+  height: 100px;
+  margin-left: 4%;
+}
+
+.img-banco-daycoval{
+  width: 180px; 
+  height: 123px;
+  bottom: 2px;
+  margin-left: 4%;
+}
+
+/***************/
+
+/*CLIENTES.PHP*/
+.titulo-clientes{
+  color: #0e0872;
+  font-size: 35px;
+}
+
+.comentario-1{
+
+  width: 80%;
+}
+
+.comentario-2{
+
+  width: 80%;
+}
+
+.comentario-3{
+
+  width: 80%;
+}
+
+.comentario-4{
+ 
+  width: 80%;
+}
+
+.comentario-5{
+
+  width: 80%;
+}
+
+.comentario-6{
+ 
+  width: 80%;
+}
+
+.comentario-7{
+
+  width: 80%;
+}
+
+.comentario-8{
+ 
+  width: 80%;
+}
+
+.comentario-9{
+ 
+  width: 80%;
+}
+
+/***************/
+
+/*RODAPE.PHP*/
+
+#footer{
+  background-image: linear-gradient(to bottom, #0074af, #004077);
+  
+}
+
+.logo-rodape{
+  width: 195px;
+  height: 171px;
+  margin-top: 3px;
+}
+
+.footer-2{
+  margin-top: 0px;
+}
+
+.servico{
+  font-size: 26px;
+  text-align: left;
+  padding-top: 77px;
+}
+
+.copy{
+  background-color: black;
+  font-size: 13px;
+}
+
+.tel-footer{
+  font-size: 17px;
+}
+
+.num-tel-footer{
+  font-size: 24px;
+}
+
+.wpp-footer{
+  font-size: 17px;
+  margin-left: -12px;
+}
+
+.num-wpp-footer{
+  font-size: 24px;
+  margin-left: -12px;
+}
+
+.email-footer, .ouvidoria-footer{
+  font-size: 18px;
+}
+
+.eml-footer{
+  font-size: 24px;
+}
+
+.ouvid-footer{
+  font-size: 24px;
+}
+
+.icon-facebook{
+	width: 13%;
+}
+
+.icon-insta{
+  width: 20%;
+}
+
+.icon-linkedin{
+  width: 20%;
+}
+
+.icon-yt{
+  width: 22%;
+  padding-top: 8px;
+}
+
+/*FORM RODAPÉ*/
+.form-footer{
+  background-color: white;
+  margin-right: -50px;
+}
+
+.txt-form-footer{
+  font-size: 35px;
+  color: #1f3f6d; 
+  font-weight: bold;
+}
+
+.submit-btn{
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 21px;
+  cursor: pointer;
+  color: white;
+  background-color: #1f3f6d;
+  border-radius: 20px;
+  border-color: #1f3f6d;
+  padding: 5px 10px;
+}
+
+.input-text{
+  display: block;
+  width: 100%;
+  height: 36px;
+  background-color: white;
+  color: #004077;
+  border-width: 0 0 2px 0;
+  border-color: #1f3f6d;
+  font-size: 15px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.contact-form .input-text:focus + .label,
+.contact-form .input-text.not-empty + .label{
+transform: translateY(-24px);
+}
+
+.input-text:focus{
+  outline: none;
+}
+
+.label{
+  bottom: 11px;
+  padding-top: 5px;
+  font-size: 21px;
+  font-weight: 500;
+  color: #004077;
+  cursor: text;
+  text-transform: capitalize;
+  transition: transform 0.2s ease-in-out;
+}
+
+.submit-btn{
+  margin-top: 10px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  color: white;
+  background-color: #1f3f6d;
+  border-radius: 20px;
+  border-color: #1f3f6d;
+  padding: 5px 10px;
+}
+
+/***************/
+
+/*QUEM SOMOS.PHP*/
+.img-quem-somos{ /*so md acima*/
+  width: 430px;
+}
+
+.titulo-quem-somos{
+  font-size: 45px;
+  color:  #1F3F6D;
+  margin-top: -6em;
+  margin-bottom: 1em;
+}
+
+.texto-quem-somos{
+  font-size: 18px;
+  text-align: justify;
+  margin-left: 15%;
+  margin-right: 5%;
+}
+
+.subtitulo{
+  font-size: 45px;
+  color: #1F3F6D;
+}
+
+.valores{
+  justify-content: center; 
+  align-items: center;
+}
+
+.item-mission, picture img{
+  width: 238px;
+  max-height: 210px;
+  border: 10px 10px solid #000;
+  border: 1px solid #1F3F6D;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  color: #1F3F6D;
+  box-shadow: 0 10px 30px 0px rgba(0,0,0,0.6);
+  transition: max-height ease-in-out 300ms;
+  background-image: linear-gradient(338deg, #fff 35%, #fff 50%);
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+picture img{
+  margin: 0;
+}
+
+.item-mission:hover{
+  max-height: 700px;
+  margin-bottom: 40px;
+  color: #fff;
+  background: linear-gradient(to right, #1F3F6D 10%, #000 80%);
+}
+
+.title{
+  font-size: 20px;
+  margin-top: 13px;
+  margin-left: 15px;
+}
+
+.description{
+  font-size: 15px;
+  color: #fff;
+  margin: 10px;
+}
+
+/***************/
+
+/*MATRIZ.PHP*/
+.img-matriz{ /*somente MD acima*/
+  width: 500px;
+}
+
+
+.titulo-matriz{
+  font-size: 45px;
+  text-align: center; 
+  color: #1f3f6d; 
+  font-weight: bold;
+  margin-top: 6%;
+}
+
+.endereco{
+  color: #1f3f6d;
+  font-size: 35px;
+  text-align: center;
+}
+
+.linha{
+  color: #1f3f6d; 
+  background-color: #1f3f6d;
+  height: 2px;
+  width: 50%;
+  
+}
+
+.fone, .fone1{
+  color: #1f3f6d;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.fone-matriz, .fone1-matriz{
+  color: #1f3f6d;
+  font-size: 34px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.fone{
+  margin-left: 13%;
+}
+
+.fone-matriz{
+  margin-left: 2%;
+}
+
+.fone1{
+  margin-left: 25%;
+}
+
+.fone1-matriz{
+  margin-left: 8%;
+}
+
+
+
+/***************/
+
+/*CONTATO.PHP*/
+.img-contato{ /*Somente MD acima*/
+  width: 550px;
+}
+
+.titulo-contato{
+  text-align: center;
+  font-size: 55px;
+  color: #1f3f6d; 
+  font-weight: bold;
+  margin-bottom: 200px;
+  margin-top: -250px;
+}
+
+.contato-fale-conosco, .contato-trabalhe-conosco{
+  color: #000;
+  font-size: 40px;
+  margin-left: -5px;
+}
+
+/***************/
+
+/*PROPOSTA.PHP*/
+.img-proposta{
+  width: 550px;
+}
+.titulo-proposta{
+  text-align: center;
+  font-size: 45px;
+  color: #1f3f6d;
+  font-weight: bold;
+  margin-top: -170px;
+  margin-bottom: 100px;
+}
+/***************/
+
+/*PROD_CARTAO_DE_CREDITO.PHP*/
+.img-cc{ /*Somente MD acima*/
+  width: 500px;
+}
+
+.titulo-cred{
+  font-size: 55px;
+  font-weight: bold;
+  color: #1f3f6d;
+  text-align: center;
+  margin-top: -250px;
+  margin-bottom: 100px;
+}
+
+.subtitulo{
+  color: #1f3f6d;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.texto-cartao{
+  font-size: 30px;
+  text-align: justify;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.sub-parceiros-cartao{
+  color: #1f3f6d;
+  text-align: center;
+  font-size: 35px;
+
+  margin-bottom: 1em;
+}
+
+.img-parceiros{
+  max-width: 10%!important;
+  height: 70px;
+  margin-bottom: 10px;
+  margin-top: 1em;
+}
+/***************/
+
+/*PROD_CONSIGNADO.PHP*/
+.img-consignado{ /*Somente MD acima*/
+  width: 500px;
+}
+
+.titulo-consignado{
+  font-size: 55px;
+  font-weight: bold;
+  color: #1f3f6d;
+  text-align: center;
+  margin-top: -250px;
+  margin-bottom: 100px;
+}
+
+.subtitulo-consignado{
+  color: #1f3f6d;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.texto-consignado{
+  font-size: 30px;
+  text-align: justify;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.titulo-parceiros-consignado{
+  color: #1f3f6d;
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 1em;
+}
+
+.img-parceiros-1{
+  max-width: 10%!important;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+/***************/
+
+/*PROD_SEGURO.PHP*/
+.foto-seguro{ /*Somente MD acima*/
+  width: 500px;
+}
+
+.titulo-seguro{
+  font-size: 55px;
+  font-weight: bold;
+  color: #1f3f6d;
+  text-align: center;
+  margin-top: -250px;
+  margin-bottom: 100px;
+}
+
+.texto-seguro{
+  font-size: 30px;
+  text-align: justify;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.parceiros-seguro{
+  color: #1f3f6d;
+  text-align: center;
+  font-size: 35px;
+  margin-right: 3em;
+  margin-bottom: 1em;
+}
+/***************/
+
+}
