@@ -1,1 +1,1 @@
-# parina..github.io
+# parina.github.io
